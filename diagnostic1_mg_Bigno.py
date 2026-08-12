@@ -16,7 +16,7 @@ def main():
     earth_weight = float(input("Enter your earth weight: "))
     destination = str(input("Enter your destination (mars, jupiter," \
     "moon): "))
-    print(calculate_space_weight(70, "mars"))
+    print(calculate_space_weight(earth_weight, destination))
 
 main()
 
